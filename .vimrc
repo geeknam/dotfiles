@@ -2,7 +2,7 @@
 "au VimEnter * :IndentGuidesEnable
 
 "set cursorline
-let mapleader = ","     " set <Lead> to , 
+let mapleader = " "     " set <Lead> to space
 set nu                  " Show line numbers
 set t_Co=256
 set hidden              " hides buffers instead of closing them 
@@ -37,6 +37,7 @@ set ruler                       " show line and column number
 syntax on                       " syntax highlighting
 set showcmd                     " show (partial) command in status line
 
+set nofoldenable                " disable folding
 set history=1000                " remember more history
 set undolevels=1000             " use many levels of undo
 set wildignore+=*.pyc           " ignore file extensions
