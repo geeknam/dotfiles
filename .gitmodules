@@ -1,3 +1,6 @@
 [submodule "powerline-bash"]
 	path = powerline-bash
 	url = git://github.com/milkbikis/powerline-bash.git
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh.git
