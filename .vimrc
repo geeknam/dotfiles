@@ -1,4 +1,3 @@
-
 "au VimEnter * :IndentGuidesEnable
 
 "set cursorline
@@ -63,3 +62,4 @@ Bundle 'django.vim'
 Bundle 'klen/python-mode'
 Bundle 'vim-less'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'tpope/vim-fugitive'
